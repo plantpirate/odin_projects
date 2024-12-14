@@ -5,3 +5,7 @@ body {
 form {
   background-color: white;
 }
+
+fieldset {
+  border: none;
+}
