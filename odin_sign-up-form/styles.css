@@ -36,6 +36,7 @@ h6 {
 
 body {
   background-color: #f4f6ff;
+  display: flex;
 }
 
 form {
