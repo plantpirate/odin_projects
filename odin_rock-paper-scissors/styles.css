@@ -1,0 +1,15 @@
+.button {
+  height: 10rem;
+  width: 10rem;
+  font-size: 2rem;
+}
+.rock {
+  background-color: rgb(101, 89, 74);
+}
+
+.paper {
+  background-color: white;
+}
+.scissors {
+  background-color: gray;
+}
