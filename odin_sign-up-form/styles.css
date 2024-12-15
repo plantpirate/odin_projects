@@ -49,12 +49,9 @@ img {
   align-content: center;
   flex-grow: 1;
 }
+
 form {
   background-color: white;
-}
-
-fieldset {
-  border: none;
 }
 
 button {
@@ -65,7 +62,21 @@ input:invalid {
   border-color: red;
 }
 
-label,
+fieldset {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Space between columns and rows */
+  align-items: center;
+}
+fieldset p {
+  grid-column: span 2; /* Make the paragraph span both columns */
+}
+
 input {
-  display: block;
+  width: 100%;
+  padding: 10px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column; /* Makes each form group element take the same place in the grid */
 }
