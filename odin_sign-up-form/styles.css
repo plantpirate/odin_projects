@@ -47,6 +47,7 @@ img {
 .right-side {
   display: flex column;
   align-content: center;
+  flex-grow: 1;
 }
 form {
   background-color: white;
@@ -62,4 +63,9 @@ button {
 
 input:invalid {
   border-color: red;
+}
+
+label,
+input {
+  display: block;
 }
