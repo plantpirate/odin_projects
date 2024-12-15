@@ -58,3 +58,7 @@ fieldset {
 button {
   background-color: #596d48;
 }
+
+input:invalid {
+  border-color: red;
+}
