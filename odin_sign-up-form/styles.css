@@ -80,7 +80,7 @@ input {
   padding: 10px;
 }
 
-.form-group {
+.form-row {
   display: flex;
   flex-direction: column;
 }
