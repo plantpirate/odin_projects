@@ -54,3 +54,7 @@ form {
 fieldset {
   border: none;
 }
+
+button {
+  background-color: #596d48;
+}
