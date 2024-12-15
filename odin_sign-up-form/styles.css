@@ -63,13 +63,14 @@ input:invalid {
 }
 
 fieldset {
+  border: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px; /* Space between columns and rows */
-  align-items: center;
+  gap: 20px;
+  max-width: 50%;
 }
 fieldset p {
-  grid-column: span 2; /* Make the paragraph span both columns */
+  grid-column: span 2;
 }
 
 input {
@@ -78,5 +79,5 @@ input {
 }
 .form-group {
   display: flex;
-  flex-direction: column; /* Makes each form group element take the same place in the grid */
+  flex-direction: column;
 }
