@@ -46,6 +46,7 @@ img {
 
 .right-side {
   display: flex column;
+  align-content: center;
 }
 form {
   background-color: white;
