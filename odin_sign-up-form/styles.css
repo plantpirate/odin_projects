@@ -5,6 +5,7 @@
 }
 * {
   margin: 0;
+  padding: 0;
 }
 body {
   line-height: 1.2;
@@ -67,6 +68,7 @@ fieldset {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+
   max-width: 50%;
 }
 fieldset p {
@@ -80,4 +82,10 @@ input {
 .form-group {
   display: flex;
   flex-direction: column;
+}
+
+.sect-top,
+.sect-bottom,
+fieldset {
+  padding-left: 40px;
 }
