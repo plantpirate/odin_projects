@@ -35,12 +35,12 @@ h6 {
 }
 
 body {
-  background-color: #f4f6ff;
   display: flex;
+  min-height: 100vh;
 }
 
-form {
-  background-color: white;
+img {
+  height: 100vh;
 }
 
 fieldset {
