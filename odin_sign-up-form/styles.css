@@ -71,14 +71,11 @@ fieldset {
 
   max-width: 50%;
 }
-fieldset p {
-  grid-column: span 2;
-}
 
 input {
-  width: 100%;
   padding: 10px;
 }
+
 .form-group {
   display: flex;
   flex-direction: column;
@@ -86,6 +83,6 @@ input {
 
 .sect-top,
 .sect-bottom,
-fieldset {
+form {
   padding-left: 40px;
 }
