@@ -41,6 +41,10 @@ body {
   display: flex;
 }
 
+.image_container {
+  flex-shrink: 0;
+}
+
 img {
   height: 100vh;
 }
