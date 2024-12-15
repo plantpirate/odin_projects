@@ -43,6 +43,10 @@ body {
 img {
   height: 100vh;
 }
+
+.right-side {
+  display: flex column;
+}
 form {
   background-color: white;
 }
