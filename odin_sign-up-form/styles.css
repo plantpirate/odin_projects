@@ -38,11 +38,8 @@ h6 {
 body {
   background-color: #f4f6ff;
   min-height: 100vh;
-  display: flex;
-}
-
-.image_container {
-  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 img {
@@ -52,7 +49,6 @@ img {
 .right-side {
   display: flex column;
   align-content: center;
-  flex-grow: 1;
 }
 
 form {
@@ -72,7 +68,6 @@ fieldset {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-
   max-width: 50%;
 }
 
