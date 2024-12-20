@@ -117,6 +117,15 @@ input {
   max-width: 90%;
 }
 
+label {
+  font-size: 13px;
+  letter-spacing: 1;
+  margin-bottom: 5px;
+}
 span {
   color: #596d48;
+}
+
+.sect-bottom {
+  font-weight: 700;
 }
