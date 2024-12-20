@@ -59,7 +59,7 @@ img {
 .sect-top,
 .sect-bottom,
 form {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 .sect-top {
@@ -86,7 +86,6 @@ button {
   font-weight: 700;
   padding: 15px 45px;
   border-radius: 10px;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -100,8 +99,10 @@ fieldset {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   max-width: 50%;
+  padding: 25px 0px;
 }
 
 input {
-  padding: 10px;
+  padding: 2px;
+  max-width: 90%;
 }
