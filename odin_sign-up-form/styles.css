@@ -63,11 +63,16 @@ form {
 }
 
 .sect-top {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 700;
   max-width: 80%;
+  place-self: center start;
+  margin-top: 100px;
 }
 
+.sect-middle {
+  margin-top: 25px;
+}
 form {
   background-color: white;
 }
