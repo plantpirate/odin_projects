@@ -65,7 +65,7 @@ form {
 .sect-top {
   font-size: 22px;
   font-weight: 700;
-  max-width: 80%;
+  max-width: 60%;
   place-self: center start;
   margin-top: 100px;
 }
@@ -73,12 +73,14 @@ form {
 .sect-middle {
   margin-top: 25px;
 }
+
 form {
   background-color: white;
 }
 
 button {
   background-color: #596d48;
+  margin-top: 20px;
 }
 
 input:invalid {
