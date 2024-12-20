@@ -47,8 +47,8 @@ img {
 }
 
 .right-side {
-  display: flex column;
-  align-content: center;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .form-row {
