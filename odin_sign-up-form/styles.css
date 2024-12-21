@@ -35,6 +35,11 @@ h6 {
   overflow-wrap: break-word;
 }
 
+@font-face {
+  font-family: "Odin-Font";
+  src: url(/Norse-Bold.otf);
+}
+
 body {
   background-color: #f4f6ff;
   min-height: 100vh;
@@ -143,6 +148,8 @@ span {
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .icon-div > img {
@@ -150,4 +157,13 @@ span {
   width: auto;
   height: auto;
   padding: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Norse";
+  color: white;
+  margin-top: 30px;
+  /* margin-top: 25px;
+  line-height: 1; */
 }
