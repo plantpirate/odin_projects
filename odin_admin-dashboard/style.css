@@ -47,8 +47,10 @@ h6 {
 .header {
   border: 5px solid black;
   grid-column: 2/3;
+  grid-row: 1/2;
 }
 .main_content {
   border: 5px solid gray;
   grid-column: 2/3;
+  grid-row: 2/3;
 }
