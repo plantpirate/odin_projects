@@ -34,6 +34,12 @@ h6 {
   overflow-wrap: break-word;
 }
 
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
 .sidebar {
   border: 5px solid lightblue;
 }
