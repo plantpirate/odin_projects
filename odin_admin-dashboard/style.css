@@ -33,3 +33,13 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+.sidebar {
+  border: 5px solid lightblue;
+}
+.header {
+  border: 5px solid black;
+}
+.main_content {
+  border: 5px solid gray;
+}
