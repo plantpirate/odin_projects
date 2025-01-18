@@ -49,8 +49,14 @@ h6 {
 
 .side-head {
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
+.side-head i {
+  font-size: 2rem;
+}
 .header {
   border: 5px solid black;
   grid-column: 2/3;
