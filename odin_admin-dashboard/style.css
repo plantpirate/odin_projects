@@ -57,6 +57,19 @@ h6 {
 .side-head i {
   font-size: 2rem;
 }
+
+.nav ul {
+  list-style-type: none;
+  font-size: 1.25rem;
+}
+
+ul li {
+  margin-bottom: 1em;
+}
+
+li i {
+  margin-right: 20px;
+}
 .header {
   border: 5px solid black;
   grid-column: 2/3;
