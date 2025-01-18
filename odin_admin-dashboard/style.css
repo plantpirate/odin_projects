@@ -111,6 +111,14 @@ label i {
   gap: 30px;
 }
 
+.top {
+  font-size: 1rem;
+}
+
+.bottom {
+  font-size: 1.8rem;
+}
+
 .btns-container {
   display: flex;
   justify-content: end;
