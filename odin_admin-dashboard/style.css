@@ -110,6 +110,13 @@ label i {
   align-items: center;
   gap: 30px;
 }
+
+.btns-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+}
 .main_content {
   border: 5px solid gray;
   grid-column: 2/3;
