@@ -117,6 +117,12 @@ label i {
   align-items: center;
   gap: 30px;
 }
+
+.btns-container button {
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: none;
+}
 .main_content {
   border: 5px solid gray;
   grid-column: 2/3;
