@@ -80,6 +80,11 @@ li i {
   grid-column: 2/3;
   grid-row: 1/2;
 }
+
+.inner-head {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
 .main_content {
   border: 5px solid gray;
   grid-column: 2/3;
