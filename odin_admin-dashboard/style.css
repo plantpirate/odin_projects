@@ -85,7 +85,20 @@ li i {
 .inner-head {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  padding: 20px;
 }
+
+.search-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+label i {
+  margin-right: 20px;
+  font-size: 1.25rem;
+}
+
 .main_content {
   border: 5px solid gray;
   grid-column: 2/3;
