@@ -168,6 +168,7 @@ label i {
 .announcement-card {
   background-color: lightgreen;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .announcement p {
@@ -192,6 +193,7 @@ img {
 .trending-card {
   background-color: lightgreen;
   padding: 1rem;
+  border-radius: 10px;
 }
 .trend {
   display: grid;
