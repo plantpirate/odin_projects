@@ -139,6 +139,11 @@ label i {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
 img {
   height: 50px;
   width: 50px;
