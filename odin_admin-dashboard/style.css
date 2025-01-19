@@ -43,7 +43,7 @@ h6 {
 }
 
 .sidebar {
-  background-color: #c2ffc7;
+  background-color: #3e7b27;
   padding: 1.5em;
   grid-row: 1/3;
   display: grid;
@@ -78,7 +78,8 @@ li i {
 
 .header {
   grid-column: 2/3;
-  background-color: #9edf9c;
+  background-color: #355f2e;
+  color: white;
 }
 
 .inner-head {
@@ -111,6 +112,10 @@ label i {
   border-radius: 50%;
 }
 
+.profile-container .userName {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
 .greet-container {
   display: flex;
   align-items: center;
@@ -153,7 +158,7 @@ label i {
   grid-template-columns: 1fr min(250px);
   padding: 20px;
   gap: 20px;
-  background-color: #62825d;
+  background-color: #123524;
 }
 
 .cards {
