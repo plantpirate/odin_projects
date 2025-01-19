@@ -119,8 +119,7 @@ label i {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  justify-content: end;
-  gap: 5px;
+  justify-items: end;
 }
 
 .btns-container button {
