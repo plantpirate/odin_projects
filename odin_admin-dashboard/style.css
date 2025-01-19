@@ -141,6 +141,7 @@ label i {
   border: none;
   background-color: #62825d;
   color: white;
+  font-weight: 900;
 }
 .main_content {
   grid-column: 2/3;
