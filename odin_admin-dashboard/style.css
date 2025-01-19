@@ -135,6 +135,10 @@ label i {
   grid-row: 2/3;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
 img {
   height: 50px;
   width: 50px;
