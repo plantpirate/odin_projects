@@ -164,6 +164,22 @@ label i {
 .card i {
   margin: 0px 10px;
 }
+
+.announcement-card {
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+.announcement p {
+  font-size: 0.8rem;
+}
+
+hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 2px solid darkgreen;
+}
+
 img {
   height: 50px;
   width: 50px;
