@@ -108,7 +108,7 @@ label i {
 }
 
 .profile-container img {
-  background-color: darkgreen;
+  background-color: #123524;
   border-radius: 50%;
 }
 
@@ -125,7 +125,7 @@ label i {
 .greet-container img {
   width: 75px;
   height: 75px;
-  background-color: darkgreen;
+  background-color: #123524;
   border-radius: 50%;
 }
 .bottom {
