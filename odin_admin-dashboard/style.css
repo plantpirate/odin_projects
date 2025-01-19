@@ -144,7 +144,7 @@ label i {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
 }
 .card {
@@ -183,6 +183,10 @@ hr {
 img {
   height: 50px;
   width: 50px;
+}
+
+.trending-container {
+  margin-top: 20px;
 }
 
 .trending-card {
