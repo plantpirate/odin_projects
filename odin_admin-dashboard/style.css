@@ -184,3 +184,23 @@ img {
   height: 50px;
   width: 50px;
 }
+
+.trending-card {
+  background-color: lightgreen;
+  padding: 1rem;
+}
+.trend {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+.trend + .trend {
+  margin-top: 10px;
+}
+
+.trend img {
+  border-radius: 50%;
+  background-color: darkgreen;
+}
