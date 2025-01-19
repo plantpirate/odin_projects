@@ -111,19 +111,16 @@ label i {
   gap: 30px;
 }
 
-.top {
-  font-size: 1rem;
-}
-
 .bottom {
   font-size: 1.8rem;
 }
 
 .btns-container {
-  display: flex;
-  justify-content: end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 30px;
+  justify-content: end;
+  gap: 5px;
 }
 
 .btns-container button {
