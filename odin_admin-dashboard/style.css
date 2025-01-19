@@ -103,6 +103,7 @@ label i {
   justify-content: end;
   align-items: center;
   gap: 30px;
+  font-size: 1.2rem;
 }
 
 .greet-container {
