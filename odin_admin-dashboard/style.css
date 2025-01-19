@@ -139,6 +139,8 @@ label i {
   padding: 8px 25px;
   border-radius: 20px;
   border: none;
+  background-color: #62825d;
+  color: white;
 }
 .main_content {
   grid-column: 2/3;
