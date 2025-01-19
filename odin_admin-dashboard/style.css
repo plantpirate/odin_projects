@@ -149,7 +149,7 @@ label i {
 }
 .card {
   background-color: lightgreen;
-  border-left: 10px solid black;
+  border-left: 10px solid darkgreen;
   border-radius: 10px;
   padding: 20px;
 
