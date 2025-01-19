@@ -243,3 +243,9 @@ h2 {
 .sidebar {
   color: white;
 }
+
+@media (min-width: 1000px) {
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
