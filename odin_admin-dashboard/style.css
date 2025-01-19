@@ -173,7 +173,7 @@ label i {
   padding: 20px;
 
   display: grid;
-  grid-template-rows: auto 100px auto;
+  grid-template-rows: auto 110px auto;
 }
 
 .card-icons {
