@@ -109,9 +109,15 @@ label i {
 .greet-container {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
+.greet-container img {
+  width: 75px;
+  height: 75px;
+  background-color: darkgreen;
+  border-radius: 50%;
+}
 .bottom {
   font-size: 1.8rem;
 }
