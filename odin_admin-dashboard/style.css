@@ -142,6 +142,17 @@ label i {
   gap: 20px;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.card {
+  background-color: lightgreen;
+  border-left: 10px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
 img {
   height: 50px;
   width: 50px;
