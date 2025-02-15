@@ -37,3 +37,9 @@ h6 {
 body {
   background-color: #f5d47a;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
