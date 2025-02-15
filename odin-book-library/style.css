@@ -42,4 +42,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
+}
+
+.header-ui button {
+  font-size: 1.2rem;
+  padding: 0.4rem 1.2rem;
+  margin-left: 15px;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
 }
