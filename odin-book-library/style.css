@@ -69,9 +69,12 @@ body {
   padding: 2rem;
   display: flex;
   justify-content: space-between;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .book {
   background-color: #fef9e1;
   padding: 1rem;
+  margin-right: 1rem;
 }
