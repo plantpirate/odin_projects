@@ -46,6 +46,8 @@ body {
 }
 
 .nav li {
+  background-color: #f5d47a;
+  display: inline-block;
   font-size: 1.2rem;
   padding: 0.4rem 1.2rem;
   margin-left: 15px;
