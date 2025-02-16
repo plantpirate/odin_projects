@@ -29,6 +29,7 @@ bookForm.addEventListener("submit", (e) => {
   const read = document.getElementById("read").checked;
   addBookToLibrary(title, author, pages, read);
   bookForm.style.display = "none";
+  bookForm.reset();
 });
 
 deleteBtn.addEventListener("click", (e) => {
