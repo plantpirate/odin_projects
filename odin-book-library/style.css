@@ -45,7 +45,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border-bottom: 5px solid black;
 }
 
 .nav ul {
@@ -89,6 +88,9 @@ body {
 .bookshelf {
   background-color: #e5d0ac;
   padding: 2rem;
+  border-top: 5px solid #690b22;
+  border-bottom: 5px solid #690b22;
+  margin-bottom: 5px;
 }
 
 #read-shelf {
@@ -98,6 +100,7 @@ body {
 }
 
 #unread-shelf {
+  margin-top: 10px;
   display: flex;
   overflow-x: auto;
   scrollbar-width: none;
