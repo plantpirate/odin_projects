@@ -63,3 +63,10 @@ body {
   cursor: pointer;
   list-style-type: none;
 }
+
+.bookshelf {
+  background-color: #e5d0ac;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
