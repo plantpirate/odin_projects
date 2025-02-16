@@ -46,6 +46,12 @@ body {
   border-bottom: 5px solid black;
 }
 
+.nav ul {
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+}
+
 .nav li {
   background-color: #f5d47a;
   display: inline-block;
