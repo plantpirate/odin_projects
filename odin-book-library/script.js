@@ -48,5 +48,6 @@ function displayLibrary() {
             <p id="status">${book.read}</p>
             <button class="change-status">Change Status</button>
     `;
+    readShelf.appendChild(card);
   });
 }
