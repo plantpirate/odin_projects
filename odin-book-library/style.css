@@ -43,6 +43,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  border-bottom: 5px solid black;
 }
 
 .nav li {
