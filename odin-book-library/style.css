@@ -66,6 +66,15 @@ body {
   list-style-type: none;
 }
 
+#bookForm {
+  background-color: #fef9e1;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .bookshelf {
   background-color: #e5d0ac;
   padding: 2rem;
