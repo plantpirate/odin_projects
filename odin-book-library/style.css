@@ -97,6 +97,11 @@ body {
   scrollbar-width: none;
 }
 
+#unread-shelf {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
 .book {
   background-color: #fef9e1;
   padding: 1rem;
