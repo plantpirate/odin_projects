@@ -17,3 +17,17 @@ function addBookToLibrary(title, author, pages, read) {
   const newBook = new Book(title, author, pages, read);
   myLibrary.push(newBook);
 }
+
+addBtn.addEventListener("click", () => {
+  bookForm.style.display = "block";
+});
+
+bookForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const title = document.getElementById("title").value;
+  const author = document.getElementById("author").value;
+  const pages = document.getElementById("pages").value;
+  const read = document.getElementById("read").checked;
+  addBookToLibrary(title, author, pages, read);
+  bookForm.style.display = "none";
+});
