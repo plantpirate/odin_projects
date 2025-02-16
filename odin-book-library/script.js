@@ -14,7 +14,8 @@ function Book(title, author, pages, read) {
 function addBookToLibrary(title, author, pages, read) {
   const newBook = new Book(title, author, pages, read);
   myLibrary.push(newBook);
-  displayLibrary();
+  readShelf.innerHTML = "";
+  myLibrary.forEach((book) => displayBook(book));
 }
 
 addBtn.addEventListener("click", () => {
@@ -32,15 +33,10 @@ bookForm.addEventListener("submit", (e) => {
   bookForm.reset();
 });
 
-deleteBtn.addEventListener("click", (e) => {
-  e.target.closest(".book").remove();
-});
-
-function displayLibrary() {
-  myLibrary.forEach((book) => {
-    const card = document.createElement("div");
-    card.classList.add("book");
-    card.innerHTML = ` 
+function displayBook(book) {
+  const card = document.createElement("div");
+  card.classList.add("book");
+  card.innerHTML = ` 
             <div class="delete-container">
               <i class="fa-solid fa-circle-xmark" id="delete"></i>
             </div>
@@ -50,6 +46,5 @@ function displayLibrary() {
             <p class="status">${book.read}</p>
             <button class="change-status">Change Status</button>
     `;
-    readShelf.appendChild(card);
-  });
+  readShelf.appendChild(card);
 }
