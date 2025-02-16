@@ -44,10 +44,10 @@ function displayLibrary() {
             <div class="delete-container">
               <i class="fa-solid fa-circle-xmark" id="delete"></i>
             </div>
-            <h3 id="title">${book.title}</h3>
-            <h4 id="author">${book.author}</h4>
-            <p id="pages">${book.pages} pages</p>
-            <p id="status">${book.read}</p>
+            <h3 class="title">${book.title}</h3>
+            <h4 class="author">${book.author}</h4>
+            <p class="pages">${book.pages} pages</p>
+            <p class="status">${book.read}</p>
             <button class="change-status">Change Status</button>
     `;
     readShelf.appendChild(card);
