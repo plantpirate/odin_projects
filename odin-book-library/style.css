@@ -68,7 +68,6 @@ body {
   background-color: #e5d0ac;
   padding: 2rem;
   display: flex;
-  justify-content: space-between;
   overflow-x: auto;
   scrollbar-width: none;
 }
@@ -77,4 +76,5 @@ body {
   background-color: #fef9e1;
   padding: 1rem;
   margin-right: 1rem;
+  min-height: 200px;
 }
