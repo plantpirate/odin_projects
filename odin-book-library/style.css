@@ -111,7 +111,10 @@ body {
 
 .delete-container {
   display: flex;
-  justify-content: flex-end;
+}
+
+#delete {
+  margin-left: auto;
 }
 
 .book {
@@ -119,4 +122,10 @@ body {
   padding: 1rem;
   margin-right: 1rem;
   min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.change-status {
+  margin-top: auto;
 }
