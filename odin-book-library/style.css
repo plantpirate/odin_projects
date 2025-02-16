@@ -91,7 +91,7 @@ body {
   padding: 2rem;
 }
 
-.read-shelf {
+#read-shelf {
   display: flex;
   overflow-x: auto;
   scrollbar-width: none;
