@@ -70,3 +70,8 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.book {
+  background-color: #fef9e1;
+  padding: 1rem;
+}
