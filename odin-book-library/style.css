@@ -66,7 +66,7 @@ body {
   list-style-type: none;
 }
 
-.book-add {
+#book-add {
   background-color: #f5d47a;
   display: inline-block;
   font-size: 1.2rem;
@@ -78,6 +78,7 @@ body {
 
 #bookForm {
   background-color: #fef9e1;
+  display: none;
   padding: 2rem;
   position: absolute;
   top: 50%;
