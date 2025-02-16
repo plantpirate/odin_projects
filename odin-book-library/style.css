@@ -35,7 +35,7 @@ h6 {
 }
 
 body {
-  background-color: #f5d47a;
+  background-color: #ff9d23;
 }
 
 .header {
@@ -45,11 +45,12 @@ body {
   padding: 1rem;
 }
 
-.header-ui button {
+.nav li {
   font-size: 1.2rem;
   padding: 0.4rem 1.2rem;
   margin-left: 15px;
   border-radius: 1rem;
   border: none;
   cursor: pointer;
+  list-style-type: none;
 }
