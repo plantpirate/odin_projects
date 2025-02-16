@@ -78,6 +78,9 @@ body {
 .bookshelf {
   background-color: #e5d0ac;
   padding: 2rem;
+}
+
+.read-shelf {
   display: flex;
   overflow-x: auto;
   scrollbar-width: none;
