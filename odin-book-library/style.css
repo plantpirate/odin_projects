@@ -109,6 +109,11 @@ body {
   margin-top: 10px;
 }
 
+.delete-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .book {
   background-color: #fef9e1;
   padding: 1rem;
