@@ -99,11 +99,16 @@ body {
 }
 
 #unread-shelf {
-  margin-top: 10px;
   display: flex;
   overflow-x: auto;
   scrollbar-width: none;
 }
+
+#read-shelf,
+#unread-shelf {
+  margin-top: 10px;
+}
+
 .book {
   background-color: #fef9e1;
   padding: 1rem;
