@@ -115,6 +115,7 @@ body {
 
 #delete {
   margin-left: auto;
+  cursor: pointer;
 }
 
 .book {
@@ -128,4 +129,5 @@ body {
 
 .change-status {
   margin-top: auto;
+  cursor: pointer;
 }
