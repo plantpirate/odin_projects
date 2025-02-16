@@ -33,3 +33,7 @@ bookForm.addEventListener("submit", (e) => {
   addBookToLibrary(title, author, pages, read);
   bookForm.style.display = "none";
 });
+
+deleteBtn.addEventListener("click", (e) => {
+  e.target.closest(".book").remove();
+});
