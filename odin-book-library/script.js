@@ -33,3 +33,20 @@ bookForm.addEventListener("submit", (e) => {
 deleteBtn.addEventListener("click", (e) => {
   e.target.closest(".book").remove();
 });
+
+function displayLibrary() {
+  myLibrary.forEach((book) => {
+    const card = document.createElement("div");
+    card.classList.add("book");
+    card.innerHTML = ` 
+            <div class="delete-container">
+              <i class="fa-solid fa-circle-xmark" id="delete"></i>
+            </div>
+            <h3 id="title">${this.title}</h3>
+            <h4 id="author">${this.author}</h4>
+            <p id="pages">${this.pages} pages</p>
+            <p id="status">${this.read}</p>
+            <button class="change-status">Change Status</button>
+    `;
+  });
+}
