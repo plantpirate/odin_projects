@@ -3,7 +3,7 @@ const bookForm = document.getElementById("bookForm");
 const readShelf = document.getElementById("read-shelf");
 const unreadShelf = document.getElementById("unread-shelf");
 
-const deleteBtn = document.getElementById("delete");
+// const deleteBtn = document.getElementById("delete");
 
 const myLibrary = [];
 
@@ -49,5 +49,9 @@ function displayBook(book) {
             <p class="status">${book.read}</p>
             <button class="change-status">Change Status</button>
     `;
-  readShelf.appendChild(card);
+  if (book.read === "have read") {
+    readShelf.appendChild(card);
+  } else {
+    unreadShelf.appendChild(card);
+  }
 }
