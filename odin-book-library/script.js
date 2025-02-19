@@ -3,8 +3,6 @@ const bookForm = document.getElementById("bookForm");
 const readShelf = document.getElementById("read-shelf");
 const unreadShelf = document.getElementById("unread-shelf");
 
-// const deleteBtn = document.getElementById("delete");
-
 const myLibrary = [];
 
 function Book(title, author, pages, read) {
@@ -59,7 +57,7 @@ function displayBook(book) {
   // add inner html to card with tempklate literals values for tdisplay words
   card.innerHTML = ` 
             <div class="delete-container">
-              <i class="fa-solid fa-circle-xmark" id="delete"></i>
+              <i class="fa-solid fa-circle-xmark delete"></i>
             </div>
             <h3 class="title">${book.title}</h3>
             <h4 class="author">${book.author}</h4>
@@ -73,4 +71,8 @@ function displayBook(book) {
   } else {
     unreadShelf.appendChild(card);
   }
+  const deleteBtn = card.querySelector(".delete");
+  deleteBtn.addEventListener("click", () => {
+    removeBookFromLibrary(book.title);
+  });
 }
