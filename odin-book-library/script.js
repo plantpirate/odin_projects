@@ -76,3 +76,14 @@ function displayBook(book) {
     removeBookFromLibrary(book.title);
   });
 }
+
+function removeBookFromLibrary(title) {
+  // find the index of the book based on the title
+  const bookIndex = myLibrary.findIndex((book) => book.title === title);
+  // Remove the book from the myLibrary array
+  if (bookIndex !== -1) {
+    myLibrary.splice(bookIndex, 1);
+  }
+  // Refresh the display
+  displayLibrary();
+}
