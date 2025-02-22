@@ -14,6 +14,10 @@ function Book(title, author, pages, read) {
   this.read = read ? "have read" : "not read yet";
 }
 
+Book.prototype.toggleReadStatus = function () {
+  this.read = this.read === "have read" ? "not read yet" : "have read";
+};
+
 function addBookToLibrary(title, author, pages, read) {
   // uses arguments passed in to then create new Book object
   const newBook = new Book(title, author, pages, read);
@@ -29,6 +33,7 @@ function displayLibrary() {
   unreadShelf.innerHTML = "";
   // loops through library and runs displayBook func on each book in array
   myLibrary.forEach((book) => displayBook(book));
+  console.log(myLibrary);
 }
 
 addBtn.addEventListener("click", () => {
@@ -63,7 +68,9 @@ function displayBook(book) {
             <h4 class="author">${book.author}</h4>
             <p class="pages">${book.pages} pages</p>
             <p class="status">${book.read}</p>
-            <button class="change-status">Change Status</button>
+            <button class="change-status">${
+              book.read === "have read" ? "Mark as Not Read" : "Mark as Read"
+            }</button>
     `;
   // conditionals to place books based on have read check value
   if (book.read === "have read") {
@@ -75,15 +82,22 @@ function displayBook(book) {
   deleteBtn.addEventListener("click", () => {
     removeBookFromLibrary(book.title);
   });
+  const changeStatusBtn = card.querySelector(".change-status");
+  changeStatusBtn.addEventListener("click", () => {
+    book.toggleReadStatus();
+    displayLibrary();
+  });
 }
 
 function removeBookFromLibrary(title) {
   // find the index of the book based on the title
   const bookIndex = myLibrary.findIndex((book) => book.title === title);
-  // Remove the book from the myLibrary array
+  // remove the book from myLibrary array
   if (bookIndex !== -1) {
     myLibrary.splice(bookIndex, 1);
   }
   // Refresh the display
   displayLibrary();
 }
+
+console.log(Book.prototype);
