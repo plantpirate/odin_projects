@@ -39,6 +39,11 @@ function displayLibrary() {
 addBtn.addEventListener("click", () => {
   // displays form
   bookForm.style.display = "block";
+  window.addEventListener("click", (e) => {
+    if (!bookForm.contains(e.target) && e.target !== addBtn) {
+      bookForm.style.display = "none";
+    }
+  });
 });
 
 bookForm.addEventListener("submit", (e) => {
