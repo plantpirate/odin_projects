@@ -83,6 +83,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 20px;
+  border: 5px solid #690b22;
 }
 
 #bookForm input {
