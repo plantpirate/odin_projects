@@ -123,6 +123,7 @@ body {
   padding: 1rem;
   margin-right: 1rem;
   min-height: 200px;
+  min-width: 180px;
   display: flex;
   flex-direction: column;
 }
