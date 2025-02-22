@@ -82,6 +82,15 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+#bookForm input {
+  margin-bottom: 10px;
+}
+
+#bookForm button {
+  margin-top: 10px;
 }
 
 .bookshelf {
