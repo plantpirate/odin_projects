@@ -39,6 +39,7 @@ function displayLibrary() {
 addBtn.addEventListener("click", () => {
   // displays form
   bookForm.style.display = "block";
+  // if element other than bookForm is the event target, AND target is not add btn, close modal
   window.addEventListener("click", (e) => {
     if (!bookForm.contains(e.target) && e.target !== addBtn) {
       bookForm.style.display = "none";
