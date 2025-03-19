@@ -1,1 +1,3 @@
-let gameboard = [];
+const ticTacToe = (function () {
+  let gameboard = [];
+})();
