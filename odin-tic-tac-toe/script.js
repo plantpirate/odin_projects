@@ -28,6 +28,9 @@ const Player = (name, mark) => {
   return { getName, getMark };
 };
 
+const playerOne = ("Player One", "X");
+const playerTwo = ("Player Two", "O");
+
 const GameBoard = () => {
   const board = Array(9).fill("");
   const getBoard = () => board;
