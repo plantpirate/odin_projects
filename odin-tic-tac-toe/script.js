@@ -22,3 +22,8 @@
 
 //   const getBoard = () => board;
 // }
+const Player = (name, mark) => {
+  const getName = () => name;
+  const getMark = () => mark;
+  return { getname, getMark };
+};
