@@ -31,6 +31,13 @@ const Player = (name, mark) => {
 const playerOne = ("Player One", "X");
 const playerTwo = ("Player Two", "O");
 
+let currentPlayer = "X";
+
+const switchPlayer = () => {
+  currentPlayer = currentPlayer === "X" ? "O" : "X";
+  console.log(currentPlayer);
+};
+
 const GameBoard = () => {
   const board = Array(9).fill("");
   const getBoard = () => board;
