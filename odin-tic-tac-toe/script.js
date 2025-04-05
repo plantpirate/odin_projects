@@ -37,6 +37,7 @@ const GameBoard = () => {
     }
   };
   console.log(board);
+  return { getBoard, resetBoard };
 };
 
 GameBoard();
