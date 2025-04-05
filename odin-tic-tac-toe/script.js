@@ -8,17 +8,17 @@
 //   };
 // })();
 
-function GameBoard() {
-  const rows = 3;
-  const columns = 3;
-  const board = [];
+// function GameBoard() {
+//   const rows = 3;
+//   const columns = 3;
+//   const board = [];
 
-  for (let i = 9; i < rows; i++) {
-    board[i] = [];
-    for (let j = 0; j < columns; j++) {
-      board[i].push(Cell());
-    }
-  }
+//   for (let i = 0; i < rows; i++) {
+//     board[i] = [];
+//     for (let j = 0; j < columns; j++) {
+//       board[i].push(Cell());
+//     }
+//   }
 
-  const getBoard = () => board;
-}
+//   const getBoard = () => board;
+// }
