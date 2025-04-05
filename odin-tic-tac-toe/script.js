@@ -31,7 +31,11 @@ const Player = (name, mark) => {
 const GameBoard = () => {
   const board = Array(9).fill("");
   const getBoard = () => board;
-
+  const resetBoard = () => {
+    for (i = 0; i < board.length; i++) {
+      board[i] = "";
+    }
+  };
   console.log(board);
 };
 
