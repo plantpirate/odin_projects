@@ -46,14 +46,13 @@ body {
   background-color: #222222;
   min-width: 50%;
   height: 100%;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gameBoard {
   min-width: 75%;
   min-height: 75%;
-  place-self: center;
   background-color: #555555;
 }
