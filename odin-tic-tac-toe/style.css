@@ -33,3 +33,27 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  background-color: #222222;
+  min-width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+
+.gameBoard {
+  min-width: 75%;
+  min-height: 75%;
+  place-self: center;
+  background-color: #555555;
+}
