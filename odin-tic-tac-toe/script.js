@@ -64,6 +64,17 @@ const playerControl = (
   return { getCurrentPlayer, switchPlayer, getMark };
 };
 
+const square = () => {
+  let value = "";
+
+  const addMark = (player) => {
+    value = player.mark;
+  };
+
+  const getMark = () => value;
+  return { addMark, getMark };
+};
+
 const GameBoard = () => {
   const board = Array(9).fill("");
   const getBoard = () => board;
@@ -79,6 +90,8 @@ const GameBoard = () => {
 GameBoard();
 const playerController = playerControl();
 // console.log(playerController.getCurrentPlayer());
+console.log(playerController.getCurrentPlayer());
+playerController.switchPlayer();
 console.log(playerController.getCurrentPlayer());
 playerController.switchPlayer();
 console.log(playerController.getCurrentPlayer());
