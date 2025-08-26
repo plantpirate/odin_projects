@@ -5,15 +5,23 @@ const unreadShelf = document.getElementById("unread-shelf");
 
 const myLibrary = [];
 
-function Book(title, author, pages, read) {
-  // takes in arguments to create key value pairs
-  this.title = title;
-  this.author = author;
-  this.pages = pages;
-  // stores certain valiue based on have read being checked or not
-  this.read = read ? "have read" : "not read yet";
-}
+// function Book(title, author, pages, read) {
+//   // takes in arguments to create key value pairs
+//   this.title = title;
+//   this.author = author;
+//   this.pages = pages;
+//   // stores certain valiue based on have read being checked or not
+//   this.read = read ? "have read" : "not read yet";
+// }
 
+class Book {
+  constructor(title, author, pages, read) {
+    this.title = title;
+    this.author = author;
+    this.pages = pages;
+    this.read = read ? "have read" : "not read yet";
+  }
+}
 Book.prototype.toggleReadStatus = function () {
   this.read = this.read === "have read" ? "not read yet" : "have read";
 };
